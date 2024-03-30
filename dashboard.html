@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sustainable Transportation Dashboard</title>
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Eco Miles Dashboard</h1>
+    <h2>It's time to take sustainable actions for today!!!</h2>
+  </header>
+  <section class="progress">
+    <div class="progress-item">
+      <h2>Carbon Emissions Saved</h2>
+      <p id="carbonSaved">0 kg CO2</p>
+    </div>
+    <div class="progress-item">
+      <h2>Calories Burned</h2>
+      <p id="caloriesBurned">0 kcal</p>
+    </div>
+    <div class="progress-item">
+      <h2>Rewards Earned</h2>
+      <p id="rewardsEarned">0 points</p>
+    </div>
+  </section>
+  <section class="actions">
+    <div class="take"><b>Take Action</b></div>
+    <button onclick="trackAction('walking')">Walk</button>
+    <button onclick="trackAction('biking')">Bike</button>
+    <button onclick="trackAction('carpooling')">Carpool</button>
+    <button onclick="trackAction('publicTransport')">Public Transport</button>
+  </div>
+</div>
+  </section>
+  <section class="image">
+    <img src="https://th.bing.com/th?id=OIP.q4RWq6U1MIgM9f3F99Nq3wHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="" width="200" height="200">
+    <img src="https://th.bing.com/th?id=OIP.4r9yDKzRLFYHZf8g0KC_pQHaEv&w=312&h=199&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="" width="200" height="200">
+    <img src="https://play-lh.googleusercontent.com/qmnqyTmIVVISUie5SfltYIfO5OQNWvWo59hEs9_PZisJ3t7YLPUnsWDT9KUkvv6HLwOB" alt="" width="200" height="200">
+    <img src="https://th.bing.com/th/id/OIP.SqVMVV_xJEtlGCwdLKULrwHaE7?w=238&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" width="200" height="200">
+    
+  </section>
+</div>
+<script src="dashboard.js"></script>
+</body>
+</html>

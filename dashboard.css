@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://th.bing.com/th/id/OIP.tDS2aqrrlodKzH7MBIwWMwHaEK?w=302&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    background-size: cover; 
+    background-position: center;     
+  }
+  .take{
+    font-size: xx-large;
+    text-decoration: underline;
+    color: black;
+    
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .progress {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .progress-item {
+    text-align: center;
+  }
+  
+  .actions {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .action {
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  button {
+    padding: 10px 40px;
+    margin: 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .action-image {
+    display: block;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+  }
+.image{
+    text-align: center;
+    margin: 30px;
+}  

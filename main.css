@@ -1,0 +1,291 @@
+/* Update slider styles */
+.slider {
+  width: 70vw;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto; /* Align slider in center */
+  text-align: center;
+  padding: 0px; /* Remove padding */
+}
+
+/* Update slide animation */
+.slide {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  opacity: 0;
+  animation: slideAnimation 15s infinite; /* Extend duration to match 3 images */
+}
+
+/* Keyframe animation */
+@keyframes slideAnimation {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  40% { opacity: 1; }
+  60% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* Delay for each slide */
+#slide1 { animation-delay: 0s; }
+#slide2 { animation-delay: 5s; }
+#slide3 { animation-delay: 10s; }
+
+/* Style features and about sections */
+.features,
+.about {
+  margin-top: 50px;
+  background-color: #f9f9f9; /* Set background color */
+  padding: 0px; /* Add padding for spacing */
+  border-radius: 10px; /* Add rounded corners */
+  cursor: pointer; /* Add cursor pointer to indicate clickable */
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+
+.features h2,
+.about h2 {
+  color: #4CAF50;
+  text-align: center;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #4CAF50;
+  padding: 10px 0;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 24px;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px; /* Increase font size */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Add decorative elements */
+nav {
+  position: relative;
+}
+
+nav::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  bottom: 0;
+  left: 0;
+}
+
+nav::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo img {
+  height: 40px; /* Adjust height as needed */
+  margin-right: 10px; /* Add some space between logo and text */
+}
+/* Style features list items */
+.features ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  transform: scale(1.05); /* Scale up on hover */
+  
+  
+}
+
+.features li {
+  margin: 10px 0;
+  font-size: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.features li:hover {
+  background-color: #45a049; /* Darker shade on hover */
+}
+/* Update slider styles */
+.slider {
+  width: 70vw;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto; /* Align slider in center */
+  text-align: center;
+  padding: 0; /* Remove padding */
+  margin-bottom: -122px; /* Decrease space between slider and feature section */
+}
+
+/* Style features and about sections */
+.features{
+  background-color: rgba(255, 255, 255, 0.7); /* Transparent background */
+  padding: 0px; /* Add padding for spacing */
+  border-radius: 10px; /* Add rounded corners */
+  cursor: pointer; /* Add cursor pointer to indicate clickable */
+  transition: transform 0.3s ease; /* Add transition effect */
+  margin-top: -140px; /* Reduce margin from the top */
+}
+.about {
+  background-color: rgba(255, 255, 255, 0.7); /* Transparent background */
+  padding: 0px; /* Add padding for spacing */
+  border-radius: 10px; /* Add rounded corners */
+  cursor: pointer; /* Add cursor pointer to indicate clickable */
+  transition: transform 0.3s ease; /* Add transition effect */
+  margin-top: 10px; /* Reduce margin from the top */
+}
+
+/* Style features list items */
+.features ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.features li {
+  margin: 10px 0;
+  font-size: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.features li:hover {
+  background-color: #45a049; /* Darker shade on hover */
+}
+
+.features h2,
+.about h2 {
+  color: #4CAF50;
+  text-align: center;
+}
+
+/* Add background color behind features and about section */
+body {
+  background-color: #f3f3f3; /* Choose your desired background color */
+}
+/* Update slider styles */
+.slider {
+  width: 70vw;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto; /* Align slider in center */
+  text-align: center;
+  padding: 0; /* Remove padding */
+  margin-bottom: -50px; /* Decrease space between slider and feature section */
+}
+
+/* Style features and about sections */
+.features,
+.about {
+  background-color: rgba(255, 255, 255, 0.7); /* Transparent background */
+  padding: -2px; /* Add padding for spacing */
+  border-radius: 10px; /* Add rounded corners */
+  cursor: pointer; /* Add cursor pointer to indicate clickable */
+  transition: transform 0.3s ease; /* Add transition effect */
+  position: relative; /* Position relative */
+  z-index: 1; /* Set z-index to ensure content appears above background */
+}
+
+/* Style features list items */
+.features ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.features li {
+  margin: 10px 0;
+  font-size: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.features li:hover {
+  background-color: #45a049; /* Darker shade on hover */
+}
+
+.features h2,
+.about h2 {
+  color: #4CAF50;
+  text-align: center;
+}
+
+/* Add background color behind features and about section */
+body {
+  background-color: #f3f3f3; /* Choose your desired background color */
+}
+
+/* Background color behind feature and about section */
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #64B5F6; /* Background color behind the transparent box */
+  z-index: 0; /* Set z-index to be below the content */
+}
+p{
+  font-size: larger;
+}
+footer{
+  text-align: center;
+  
+}
+#a{
+  font-size: xx-large;
+}
+#f{
+  font-size: xx-large;
+}
