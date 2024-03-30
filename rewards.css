@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #f1f77b;
+    color: #ed0f0f(0, 22%, 91%, 0);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0ebeb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.rewards, .chart, .redemption {
+    flex: 1;
+    padding: 20px;
+}
+
+.rewards h2, .chart h2, .redemption h2 {
+    margin-top: 0;
+}
+
+.rewards ul, .redemption ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rewards ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.rewards ul li .points {
+    margin-right: 10px;
+}
+
+.redemption ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.redemption ul li:hover {
+    text-decoration: underline;
+}
+
+.bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 4px;
+    transition: width 0.5s ease-in-out;
+}
+
+
+.footer-image {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.footer-image img {
+    max-width: 50%;
+    height: 50%;
+    border-radius: 8px;
+}
+
